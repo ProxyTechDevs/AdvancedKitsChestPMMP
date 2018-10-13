@@ -6,11 +6,11 @@ author: ProxyTechDevs
 softdepend: [""]
 commands:
  kit:
-  description: "his Plugin Is By @ProxyTechDevs On Twitter"
+  description: "This Plugin Is By @ProxyTechDevs On Twitter"
   usage: "/kit <KitName>"
   aliases: [kits]
   permission: advancedkits.command
 permissions:
  advancedkits.command:
-  description: "allows the user to do use the /kit command"
+  description: "Allows The User To Do Use The /kit Command"
   default: true
