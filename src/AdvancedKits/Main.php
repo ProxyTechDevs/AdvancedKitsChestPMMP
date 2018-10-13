@@ -77,7 +77,7 @@ class Main extends PluginBase {
 										TextFormat::GRAY . "tap anywhere to redeem plugin by ProxyTechDevs",
 										TextFormat::GRAY . "a container that contains the " . $kit->getName() . " Kit By ProxyTechDevs",
 										"",
-										TextFormat::RED . "be sure to clear your inventory by ProxyTechDevs",
+										TextFormat::RED . "be sure to clear your inventory plugin by ProxyTechDevs",
 									]);
 									$sender->getInventory()->addItem($chest);
 									$player->sendMessage($this->langManager->getTranslation("sel-kit", $this->name));
@@ -93,10 +93,10 @@ class Main extends PluginBase {
 								$chest->setCustomName(TextFormat::RESET . TextFormat::BOLD . TextFormat::DARK_GRAY . "[" . TextFormat::GOLD . "+" . TextFormat::DARK_GRAY . "] " . TextFormat::GOLD . $kit->getName() . " Kit " . TextFormat::DARK_GRAY . "[" . TextFormat::GOLD . "+" . TextFormat::DARK_GRAY . "]" . TextFormat::RESET);
 								$chest->setLore([
 									"",
-									TextFormat::GRAY . "tap anywhere to redeem by ProxyTechDevs",
+									TextFormat::GRAY . "tap anywhere to redeem plugin by ProxyTechDevs",
 									TextFormat::GRAY . "a container that contains the " . $kit->getName() . " Kit by ProxyTechDevs",
 									"",
-									TextFormat::RED . "be sure to clear your inventory by ProxyTechDevs",
+									TextFormat::RED . "be sure to clear your inventory plugin by ProxyTechDevs",
 								]);
 								$sender->getInventory()->addItem($chest);
 								$player->sendMessage($this->langManager->getTranslation("sel-kit", $kit->name));
