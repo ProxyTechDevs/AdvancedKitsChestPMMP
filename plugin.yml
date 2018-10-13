@@ -1,0 +1,16 @@
+name: AdvancedKitsChestPMMP
+main: AdvancedKits\Main
+version: 1.0.0
+api: [3.0.0, 3.2.4]
+author: ProxyTechDevs
+softdepend: [""]
+commands:
+ kit:
+  description:
+  usage: "/kit <KitName>"
+  aliases: [kits]
+  permission: advancedkits.command
+permissions:
+ advancedkits.command:
+  description: "allows the user to do use the /kit command"
+  default: true
